@@ -1,0 +1,57 @@
+<html>
+<head>
+    <style>
+        .img{
+        margin: 0 0 0 90px;
+        text-align: center;
+        }
+        td{
+          text-align: center;
+        }
+        button{
+          text-align: center;
+          font-size: 20px;
+          border: none
+          background-color: green;
+          border-radius: 5px;
+          width: 80px;
+        }
+    </style>
+
+
+</head>
+<body>
+<div>
+    <h1 style="text-align:center">Review Analysis Report</h1>
+    <hr style="width:80%">
+    <div class="img">
+      <table>
+        <tr>
+          <td><h2>Teaching</h2>
+          <img src="{{url_for('static',filename='teach_img_PNN.jpg')}}"></td>
+          <td><h2>Course</h2><br>
+          <img src="{{url_for('static',filename='course_img_PNN.jpg')}}"></td>
+        </tr>
+        <tr>
+          <td><br><h2>Exam</h2>
+          <img src="{{url_for('static',filename='exam_img_PNN.jpg')}}"></td>
+          <td><br><h2>Lab</h2>
+          <img src="{{url_for('static',filename='lab_img_PNN.jpg')}}"></td>
+        </tr>
+        <tr>
+          <td><h2>Library</h2>
+          <img src="{{url_for('static',filename='library_img_PNN.jpg')}}"></td>
+          <td><h2>Extracurricular</h2>
+          <img src="{{url_for('static',filename='extra_img_PNN.jpg')}}"></td>
+        </tr>
+      </table>
+      <h2>Overall Analysis</h2>
+      <img src="{{url_for('static',filename='overall_img_PNN.jpg')}}">
+      <br>
+      <button onclick='window.location.href = "/next"'>Next</button>
+      <br>
+      <br>
+    </div>
+</div>
+</body>
+</head>

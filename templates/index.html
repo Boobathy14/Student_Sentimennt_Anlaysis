@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style>
+      body{
+      background-color:#CFFFDC
+      }
+      label{
+      text-align: left;
+      }
+      .container{
+        width : 800px;
+        height : 570px;
+        text-align: center;
+      }
+      .hole_content{
+        margin : 20px 370px;
+        background-color: #93FFD8;
+        width:800px;
+        height:650px
+      }
+      select{
+      width: 500px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 2px solid black;
+        transition: width 0.4s ease-in-out;
+        background-color:Transparent;
+      }
+      textarea{
+      width: 500px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 2px solid black;
+        transition: width 0.4s ease-in-out;
+        background-color:Transparent;
+      }
+
+      input[type=text] {
+        width: 500px;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 2px solid black;
+        transition: width 0.4s ease-in-out;
+      }
+      input[type=submit] {
+        width: 250px;
+        padding: 10px 20px;
+        margin: 19px 0;
+        box-sizing: border-box;
+        border: none;
+        border-bottom: 2px solid black;
+        background-color:#7900FF;
+        border-radius:25px;
+        color:#CFFFDC;
+        font-size:20px;
+        transition: width 0.4s ease-in-out;
+      }
+      h1{
+      color:#7900FF;
+      text-align:center;
+      }
+      input:hover{
+        border:none;
+        border-bottom: 2px solid #4CAF50;
+
+      }
+      button{
+        background-color: white;
+        color: black;
+        border: 2px solid black;
+        font-size: 15px;
+        border:none
+        border-bottom: 2px solid black;
+
+      }
+      input{
+      border:none
+      border-bottom: 5px solid black;
+      background-color:Transparent;
+
+      }
+      button:hover{
+        background-color: #4CAF50;
+        color: white;
+        border-radius: 30px;
+        border: 2px solid #4CAF50;
+
+      }
+      .col{
+           float: left;
+           width: 70%;
+        }
+    </style>
+  </head>
+  <body>
+  <h1>Student Review Form</h1>
+  <div class = "hole_content">
+    <div class="container">
+        <form class="" method="post">
+          <input name="Name" type="text" placeholder="Name"> <br>
+          <input type="text" name="Reg" value="" placeholder="Register Numberr"><br>
+          <select class="" name="Department"><br>
+              <option value="">Department</option>
+            <option value="IT">IT</option>
+            <option value="CSE">CSE</option>
+            <option value="MECH">MECH</option>
+          </select><br>
+            <textarea name="Review_teaching" rows="2" cols="80" placeholder="Review about Teaching"></textarea> <br>
+            <textarea name="Review_course" rows="2" cols="80" placeholder="Review about Course"></textarea> <br>
+            <textarea name="Review_exam" rows="2" cols="80" placeholder="Review about Examination"></textarea> <br>
+            <textarea name="Review_lab" rows="2" cols="80" placeholder="Review About Lab"></textarea> <br>
+            <textarea name="Review_library" rows="2" cols="80" placeholder="Review About Library"></textarea> <br>
+            <textarea name="Review_extracurricular" rows="2" cols="80" placeholder="Review about extracurricular"></textarea> <br>
+            <input type="submit" name="" value="Submit">
+
+      </form>
+      </div>
+  </div>
+  </body>
+</html>
