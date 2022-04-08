@@ -7,6 +7,8 @@ This project is developed to understand the student mentality about their academ
 # Analysis Report
 ![image](https://user-images.githubusercontent.com/74816597/162371414-c735fa7c-916d-4db2-9e2c-62a07612e487.png)
 ![image](https://user-images.githubusercontent.com/74816597/162371482-c1f2dd6d-aa7e-471a-aa17-a5927a89ff4f.png)
+![image](https://user-images.githubusercontent.com/74816597/162390728-e3ce74c8-66bc-45c9-bae9-3ffe0618cf2b.png)
+
 ![image](https://user-images.githubusercontent.com/74816597/162371533-7266e744-de26-4eab-9b36-002a5e23d475.png)
    
  ![image](https://user-images.githubusercontent.com/74816597/162371607-283cc69e-03db-4767-aaf0-bb1356427ebf.png)
